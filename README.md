@@ -1,4 +1,4 @@
-###AEM Demo 開発の記録
+## AEM Demo 開発の記録
 
 Seriaというカスタムコンポーネントの開発と、NavigationコンポーネントのCSSを変更しました。
 それ以外は公式チュートリアル(https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/custom-component.html?lang=en )と同じです。
