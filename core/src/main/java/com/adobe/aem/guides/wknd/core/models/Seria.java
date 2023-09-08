@@ -17,7 +17,7 @@ public interface Seria {
     /***
     * @return
     */
-    Number getModelNumber();
+    String getModelNumber();
 
     /***
     * @return

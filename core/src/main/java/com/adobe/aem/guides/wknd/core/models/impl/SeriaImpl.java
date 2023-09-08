@@ -34,7 +34,7 @@ public class SeriaImpl implements Seria {
     private String description;
 
     @ValueMapValue
-    private Number modelNumber;
+    private int modelNumber;
 
     private Image image;
 
@@ -61,17 +61,19 @@ public class SeriaImpl implements Seria {
     }
 
     @Override
-    public Number getModelNumber(){
-        return modelNumber;
+    public String getModelNumber(){
+        return "製品番号："+modelNumber;
     }
 
     @Override
     public boolean isEmpty() {
         final Image componentImage = getImage();
-
-        if(StringUtils.isBlank(name) || StringUtils.isBlank(description) || modelNumber == null || componentImage == null){
+        
+        // javaを学習するまでとりあえずコメントアウト 
+        /*if(StringUtils.isBlank(name) || StringUtils.isBlank(description) || modelNumber == null || componentImage == null){
             return true;
-        }
+        }*/
+
         return false;
     }
 
