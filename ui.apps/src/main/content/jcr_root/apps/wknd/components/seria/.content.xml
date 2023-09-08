@@ -5,4 +5,3 @@
     jcr:description="Displays a product information."
     componentGroup="WKND Sites Project - Content"
     sling:resourceSuperType="core/wcm/components/image/v2/image"/>
-
